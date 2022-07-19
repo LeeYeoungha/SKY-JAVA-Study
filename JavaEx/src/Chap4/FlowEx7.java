@@ -23,7 +23,7 @@ public class FlowEx7 {
 		case -1:
 			System.out.println("com win");
 			break;
-		case 
+		//case 
 		}
 		
 			
