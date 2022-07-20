@@ -242,7 +242,7 @@ public class test {
 
 
 // 참조 자료형 
-public class test{
+/*public class test{
 	int studentId;
 	String studendName;
 	int koreaScore;
@@ -264,7 +264,14 @@ class Student{
 	Subject korean;
 	Subject math;
 }
-
+*/
 //korean.subjectName
 //math.subjectName
+
+
+
+
+
+
+
 
