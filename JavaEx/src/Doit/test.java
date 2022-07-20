@@ -217,7 +217,7 @@ class test1 {
 }*/
 
 
-
+/*
 public class test {
 	String name;
 	float height;
@@ -235,5 +235,36 @@ public class test {
 		weight = pweight;
 	}
 }
+*/
 
+
+
+
+
+// 참조 자료형 
+public class test{
+	int studentId;
+	String studendName;
+	int koreaScore;
+	int mathScore;
+	String koreaSubject;
+	String mathSubject;
+}
+
+
+class Subject{
+	int subjectNmae;
+	int scorePoint;
+}
+
+class Student{
+	int studentId;
+	String studendName;
+	int koreaScore;
+	Subject korean;
+	Subject math;
+}
+
+//korean.subjectName
+//math.subjectName
 
