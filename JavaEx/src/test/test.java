@@ -1,4 +1,4 @@
-package Study;
+package test;
 
 import java.lang.reflect.Constructor;
 
