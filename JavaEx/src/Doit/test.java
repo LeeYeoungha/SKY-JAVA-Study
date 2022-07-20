@@ -217,3 +217,23 @@ class test1 {
 }*/
 
 
+
+public class test {
+	String name;
+	float height;
+	float weight;
+	
+	public test() {}
+	
+	public test(String pname) {
+		name = pname;
+	}
+	
+	public test(String pname, float pheight, float pweight) {
+		name = pname;
+		height = pheight;
+		weight = pweight;
+	}
+}
+
+
