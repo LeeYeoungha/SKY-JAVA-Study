@@ -1,6 +1,6 @@
 package test;
 
-import java.lang.reflect.Constructor;
+//import java.lang.reflect.Constructor;
 
 //class test {
 	
@@ -351,8 +351,5 @@ public static void main(String args[]) {
 	 * sc1.setOperand(10, 20); sc1.sum(); sc1.avg(); sc1.min(); } }
 	 * 
 	 */
-
-
-
 
 

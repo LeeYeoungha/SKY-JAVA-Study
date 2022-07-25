@@ -42,7 +42,12 @@ public class Student{
 		this.money -= 1500;
 	}
 	
+	public void takeTaxi(Taxi taxi) {
+		taxi.take(10000);
+		this.money -= 10000;
+	}
+	
 	public void showInfo() {
-		System.out.println(studentName + " " + money);
+		System.out.println(studentName + "은 남은 돈 " + money + "을 가지고 있으며");
 	}
 }
