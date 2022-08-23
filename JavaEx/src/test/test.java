@@ -453,7 +453,7 @@ public class test {
 
 */
 
-
+/*
 class calculator{
 	int left, right;
 	
@@ -504,4 +504,6 @@ public class test {
 		in1.sum();
 		in1.min();
 	}
-}
+}*/
+
+

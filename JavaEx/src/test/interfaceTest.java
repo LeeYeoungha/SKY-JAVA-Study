@@ -1,7 +1,7 @@
 package test;
 
-public interface interfaceTest {
+public interface interfaceTest{
+	public void setOperand(int first, int second, int thirth);
 	int sum();
-	int min();
-
+	int avg();
 }
