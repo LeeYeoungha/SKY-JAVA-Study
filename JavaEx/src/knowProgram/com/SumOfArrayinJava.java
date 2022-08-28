@@ -27,7 +27,9 @@ public class SumOfArrayinJava {
 	4) sum 변수에 요소를 추가하고 결과 값을 sum 변수에 다시 할당합니다. (즉, 합계 = 합계 + arr)
 	5) 배열의 모든 요소가 sum 변수에 추가되면 결과를 표시합니다.[i]*/
 	
-	
+	public static void main(String[] args) {
+		
+	}
 	
 }
 
