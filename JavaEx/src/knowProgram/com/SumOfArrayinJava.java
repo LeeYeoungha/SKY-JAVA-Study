@@ -27,9 +27,27 @@ public class SumOfArrayinJava {
 	4) sum 변수에 요소를 추가하고 결과 값을 sum 변수에 다시 할당합니다. (즉, 합계 = 합계 + arr)
 	5) 배열의 모든 요소가 sum 변수에 추가되면 결과를 표시합니다.[i]*/
 	
-	public static void main(String[] args) {
-		
-	}
+	/*	public static void main(String[] args) {
+			
+			int arrayB[] = {10,20,30,40,50};
+			int sum = 0;
+			
+			for (int i = 0; i < arrayB.length; i++) {
+				System.out.println(arrayB[i]);
+				sum += arrayB[i];		}
+			System.out.println(sum);
+			
+		}*/
+	
+	
+	//Java Program To Calculate The Sum Of Array Elements By Taking Input Values
+	/*
+	 * Enter number of elements: 5
+	Enter array elements:
+	10 20 30 40 50
+	Sum of array elements= 150
+	 * 
+	 */
 	
 }
 
