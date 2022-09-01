@@ -1,6 +1,6 @@
 package knowProgram.com;
 
-public class arrayLoop1 {
+public class T1CI {
 
 	public static void main(String[] args) {
 
