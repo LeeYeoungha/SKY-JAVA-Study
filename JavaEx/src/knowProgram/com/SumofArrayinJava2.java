@@ -32,8 +32,7 @@ public class SumofArrayinJava2 {
 	/*	Similarly,
 		array = {50, 60, -20, 55, -90}
 		Sum of array elements = 50+60-20+55-90 = 55[]*/
-	
-	
+
 	/*	
 		public static void main(String[] args) {
 			int[] arrayB = {50, 60, -20, 55, -90};
@@ -60,9 +59,9 @@ public class SumofArrayinJava2 {
 			
 		}
 		*/
-	
-	//output = 
-	//Sum of array elements= 150
+
+	// output =
+	// Sum of array elements= 150
 
 	/*	public static void main(String[] args) {
 			int arrayC[] = {10, 20, 30, 40, 50};
@@ -76,8 +75,7 @@ public class SumofArrayinJava2 {
 			}
 			System.out.print(sumC);
 		}*/
-	
-	
+
 	/*	배열 요소의 합을 찾는 절차,
 		1) 하나의 배열을 가져옵니다.
 		2) 하나의 sum 변수를 선언하고 0으로 초기화하십시오.
@@ -91,38 +89,36 @@ public class SumofArrayinJava2 {
 		*10 20 30 40 50
 		*Sum of array elements= 150
 		*/
-	
+
 	public static void main(String[] args) {
-		System.out.print("Enter number of elements: ");
 		
+		int sum = 0;		//sum
+		int[] arrayD = {10,20,30,40,50};		//array
+		
+		System.out.print("Enter number of elements: ");
 		Scanner sc = new Scanner(System.in);
 		int inputSc = sc.nextInt();
+		System.out.println(inputSc);
+
 		
-		System.out.print(inputSc);
 		
-		
-		Scanner ip = new Scanner(System.in);
-		
+
 		System.out.println("Enter array elements: ");
 		
-		int inputIp = ip.nextInt();		
-		
-		
-		for (int i = 0; i < inputSc; i++) {
-		
+		for (int i = 0; i <= inputSc; i++) {
 			
-			int[] inputArray = {i};
-				
-			}
+			
+			int printArrayDI = arrayD[i];
+			System.out.print(printArrayDI + " ");
+			
+			sum = sum + arrayD[i];
+			
+			
 			
 		}
-		
-		
-		
-		
+		System.out.printf("\nSum of array elements= %d", sum);
 		
 		
 	}
-	
 
 }
