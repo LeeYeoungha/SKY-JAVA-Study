@@ -125,8 +125,100 @@ public class SumofArrayinJava2 {
 
 	
 	
+	// 입력값을 받아 SUM
 	
-	public static void main(String[] args) {
+	//Enter number of elements:
+	//Enter array elements: 
+	//Sum of array elements= 
+		
+	
+	/*public static void main(String[] args) {
+		
+		System.out.println("Enter number of elements:");
+		
+		Scanner sc = new Scanner(System.in);
+		int scNum = sc.nextInt();
+		
+		int arrayD[] = new int[scNum];
+		
+		
+		System.out.println("Enter array elements: ");
+		for (int i = 0; i < scNum; i++) {
+			arrayD[i] = sc.nextInt();
+		}
+		
+		int sum = 0;
+		
+		for (int i1 = 0; i1 < scNum; i1++) {
+			
+		//sum =+ arrayD[i1];
+		
+			sum = sum + arrayD[i1];
+			
+			
+		}
+		
+		
+		System.out.println("Sum of array elements= "+sum);
+	
+		
+		
+		
+		
+	}
+}*/
+	
+	
+	
+		//re3
+		
+		// 입력값을 받아 SUM
+		
+		//Enter number of elements:
+		//Enter array elements: 
+		//Sum of array elements= 
+	
+		/*public static void main(String[] args) {
+			
+			System.out.println("Enter number of elements:");
+			
+			
+			
+			Scanner sc = new Scanner(System.in);
+			int ip = sc.nextInt();
+			
+			
+			int arrayD[] = new int[ip];
+			
+			
+			for (int i = 0; i < arrayD.length; i++) {
+				arrayD[i] = sc.nextInt();
+			}
+			
+			
+			System.out.println("Enter array elements: ");
+			System.out.println(ip);
+			
+			
+			
+			int sum = 0;
+			
+			for (int i = 0; i < arrayD.length; i++) {
+				sum = sum + arrayD[i];
+			}
+			System.out.println("Sum of array elements= "+sum);
+		}
+}*/
+	
+	
+	
+
+	
+		
+	
+
+//correct answer	
+/*	public static void main(String[] args) {
 
 	    // create Scanner class object
 	    Scanner scan = new Scanner(System.in);
@@ -155,4 +247,4 @@ public class SumofArrayinJava2 {
 	    // display the result
 	    System.out.println("Sum of array elements= " + sum);
 	  }
-	}
+	}*/
