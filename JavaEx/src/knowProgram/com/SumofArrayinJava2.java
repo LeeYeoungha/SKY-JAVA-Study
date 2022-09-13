@@ -212,6 +212,44 @@ public class SumofArrayinJava2 {
 	
 	
 	
+	//re4
+	
+	// 입력값을 받아 SUM
+	
+	//Enter number of elements:
+	//Enter array elements: 
+	//Sum of array elements= 
+	
+	public static void main(String[] args) {
+
+		int i;
+		
+		
+		
+		System.out.println("Enter number of elements:");
+		
+		Scanner sc = new Scanner(System.in);
+		int max = sc.nextInt();
+		int arrayD[] = new int[max];
+		int sum = 0;
+		System.out.println("Enter array elements: ");
+		
+		
+		for (int j = 0; j < max; j++) {
+		
+		arrayD[j] = sc.nextInt(); 
+		
+		sum=sum+arrayD[j];
+		
+		}
+		
+		System.out.println("Sum of array elements= "+sum);
+		
+	}
+}
+
+	
+	
 
 	
 		
