@@ -220,7 +220,7 @@ public class SumofArrayinJava2 {
 	//Enter array elements: 
 	//Sum of array elements= 
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 
 		int i;
 		
@@ -246,11 +246,40 @@ public class SumofArrayinJava2 {
 		System.out.println("Sum of array elements= "+sum);
 		
 	}
+}*/
+
+	
+	
+	//re5
+	
+		// 입력값을 받아 SUM
+		
+		//Enter number of elements:
+		//Enter array elements: 
+		//Sum of array elements= 
+	
+	public static void main(String[] args) {
+		
+		int sum = 0;
+		int j= 0;
+		System.out.println("Enter number of elements:");
+		
+		Scanner sc = new Scanner(System.in);
+		int maxNum = sc.nextInt();
+		
+		int arrayD[] = new int[maxNum];
+		
+		for (int i = 0; i < maxNum; i++) {
+			
+			arrayD[i] = sc.nextInt();
+			
+			sum = sum+=arrayD[i];
+		}
+		System.out.println("Sum of array elements= " + sum);
+		
+		
+	}
 }
-
-	
-	
-
 	
 		
 	
