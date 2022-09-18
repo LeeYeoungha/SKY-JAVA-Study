@@ -1,6 +1,8 @@
 package knowProgram.com;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 public class SumofArrayinJava2 {
@@ -252,36 +254,95 @@ public class SumofArrayinJava2 {
 	
 	//re5
 	
-		// 입력값을 받아 SUM
+			// 입력값을 받아 SUM
+			
+			//Enter number of elements:
+			//Enter array elements: 
+			//Sum of array elements= 
 		
+	/*	public static void main(String[] args) {
+			
+			int sum = 0;
+			int j= 0;
+			System.out.println("Enter number of elements:");
+			
+			Scanner sc = new Scanner(System.in);
+			int maxNum = sc.nextInt();
+			
+			int arrayD[] = new int[maxNum];
+			
+			for (int i = 0; i < maxNum; i++) {
+				
+				arrayD[i] = sc.nextInt();
+				
+				sum = sum+=arrayD[i];
+			}
+			System.out.println("Sum of array elements= " + sum);
+			
+			
+		}
+	}
+		//re6
+		// 입력값을 받아 SUM
 		//Enter number of elements:
 		//Enter array elements: 
 		//Sum of array elements= 
 	
+	
+	
 	public static void main(String[] args) {
+	
 		
-		int sum = 0;
-		int j= 0;
 		System.out.println("Enter number of elements:");
 		
 		Scanner sc = new Scanner(System.in);
-		int maxNum = sc.nextInt();
+		int scNum = sc.nextInt();
+		int arrayE[] = new int [scNum];
+		int sum = 0;
+		System.out.println("Enter array elements: ");
 		
-		int arrayD[] = new int[maxNum];
+		for (int i = 0; i < scNum; i++) {
+		arrayE[i] = sc.nextInt();	
 		
-		for (int i = 0; i < maxNum; i++) {
-			
-			arrayD[i] = sc.nextInt();
-			
-			sum = sum+=arrayD[i];
+		sum += arrayE[i];
+		
 		}
 		System.out.println("Sum of array elements= " + sum);
-		
-		
 	}
-}
+}*/
 	
+
+
+	//re7
+	// 입력값을 받아 SUM
+	//Enter number of elements:
+	//Enter array elements: 
+	//Sum of array elements= 
+
+	/*public static void main(String[] args) {
+		//1)
+		System.out.println("Enter number of elements:");
+		Scanner sc = new Scanner(System.in);
+		int scNum = sc.nextInt();
+		int sum = 0;
 		
+		System.out.println("Enter array elements: :");
+		
+		int []arrayF = new int[scNum];
+		
+		for (int i = 0; i < scNum; i++) {
+			
+			arrayF[i] = sc.nextInt();
+			
+			sum += arrayF[i];
+			
+		}
+		
+		System.out.println("Sum of array elements= :" + sum);
+		
+		}
+	}*/
+
 	
 
 //correct answer	
@@ -314,4 +375,148 @@ public class SumofArrayinJava2 {
 	    // display the result
 	    System.out.println("Sum of array elements= " + sum);
 	  }
-	}*/
+	}
+	
+}*/
+
+
+/*
+	//re8
+	// 입력값을 받아 SUM
+	//Enter number of elements:
+	//Enter array elements: 
+	//Sum of array elements= 
+	
+	public static void main (String[] args) {
+		
+		System.out.println("Enter number of elements: ");
+		Scanner sc = new Scanner(System.in);
+		int scNum = sc.nextInt();
+		int sum = 0;
+		
+		int arrayH[] = new int[scNum];
+
+		
+
+		System.out.println("Enter array elements: ");
+		for (int i = 0; i < scNum; i++) {
+			arrayH[i] = sc.nextInt(); 
+			
+			sum += arrayH[i];
+		}
+		
+		System.out.println("Sum of array elements= " + sum);
+		
+		
+	}
+	
+}
+	*/
+	
+	
+	
+	
+	
+	
+
+	
+	//위의 프로그램의 제한 사항 : - 배열 요소의 수는 프로그램 개발 시간에 알려야합니다. 배열 요소의 수가 동적이며 이전에 예측할 수없는 경우 동적으로 커질 수 있으므로 컬렉션 클래스의 도움을 받아야합니다.
+	// output
+	// Sum = 150
+	
+	
+	
+/*	public static void main(String[] args) {
+		
+		
+		List<Integer> arrayG = new ArrayList<Integer>();
+
+		arrayG.add(10);
+		arrayG.add(20);
+		arrayG.add(30);
+		arrayG.add(40);
+		arrayG.add(50);
+		
+		int sum = 0;
+		
+		for (int i : arrayG ) {
+			
+			sum += i;
+		}
+		
+		
+		System.out.println("Sum =" + sum);
+	
+	}
+	
+}*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	//위의 프로그램의 제한 사항 : - 배열 요소의 수는 프로그램 개발 시간에 알려야합니다. 배열 요소의 수가 동적이며 이전에 예측할 수없는 경우 동적으로 커질 수 있으므로 컬렉션 클래스의 도움을 받아야합니다.
+	// output
+	// Sum = 150
+	//re2
+	
+	/*public static void main(String[] args) {
+		
+	List<Integer> arrayD = 	new ArrayList<Integer>();
+	
+	arrayD.add(10);
+	arrayD.add(20);
+	arrayD.add(30);
+	arrayD.add(40);
+	arrayD.add(50);
+	
+	int sum = 0;
+	
+	for (int i : arrayD) {
+		sum+= i;
+	}
+	System.out.println("sum =" + sum);
+	}
+}
+
+	*/
+
+	
+	
+	
+	
+	//위의 프로그램의 제한 사항 : - 배열 요소의 수는 프로그램 개발 시간에 알려야합니다. 배열 요소의 수가 동적이며 이전에 예측할 수없는 경우 동적으로 커질 수 있으므로 컬렉션 클래스의 도움을 받아야합니다.
+	// output
+	// Sum = 150
+	//re3
+	
+	/*
+	public static void main(String[] args) {
+
+		List<Integer> arrayI = new ArrayList<Integer>();
+			
+			arrayI.add(10);
+			arrayI.add(20);
+			arrayI.add(30);
+			arrayI.add(40);
+			arrayI.add(50);
+		
+			int sum = 0;
+			
+		for (int i : arrayI) {
+			sum += i;
+		}
+		System.out.println("sum=" + sum);
+	}
+}*/
+	
+	
