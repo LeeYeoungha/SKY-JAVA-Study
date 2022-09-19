@@ -520,3 +520,57 @@ public class SumofArrayinJava2 {
 }*/
 	
 	
+	//-=-----------------------------------------------------------------
+	//복습                                    
+	//re6
+	// 입력값을 받아 SUM
+	//Enter number of elements:
+	//Enter array elements: 
+	//Sum of array elements= 
+	
+	
+/*	public static void main(String[] args) {
+
+		System.out.println("Enter number of elements:");
+		
+		Scanner sc = new Scanner(System.in);
+		int scInput = sc.nextInt();
+		int arrayJ[] = new int[scInput];
+		int sum = 0;
+		
+		System.out.println("Enter array elements: ");
+		
+		for (int i = 0; i < scInput; i++) {
+			arrayJ[i] = sc.nextInt();
+			
+			sum += arrayJ[i];
+		}
+		
+		
+		System.out.println("Sum of array elements=" + sum);
+		
+		
+	}
+}
+	*/
+	
+/*	public static void main(String[] args) {
+
+		List<Integer>arrayK = new ArrayList<Integer>();
+
+		arrayK.add(10);
+		arrayK.add(20);
+		arrayK.add(30);
+		arrayK.add(40);
+		arrayK.add(50);
+		
+		int sum = 0;
+		
+		for (int i : arrayK) {
+			sum += i;
+		}
+		System.out.println(sum);
+	}
+}
+	*/
+	
