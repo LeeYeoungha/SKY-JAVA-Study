@@ -78,12 +78,12 @@ public class SumofArrayinJava2 {
 			System.out.print(sumC);
 		}*/
 
-	/*	ë°°ì—´ ìš”ì†Œì˜ í•©ì„ ì°¾ëŠ” ì ˆì°¨,
-		1) í•˜ë‚˜ì˜ ë°°ì—´ì„ ê°€ì ¸ì˜µë‹ˆë‹¤.
-		2) í•˜ë‚˜ì˜ sum ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  0ìœ¼ë¡œ ì´ˆê¸°í™”í•˜ì‹­ì‹œì˜¤.
-		3) ë£¨í”„ë¥¼ ì‚¬ìš©í•˜ì—¬ ì£¼ì–´ì§„ ë°°ì—´ì˜ ìš”ì†Œë¥¼ ë°˜ë³µí•©ë‹ˆë‹¤.
-		4) sum ë³€ìˆ˜ì— ìš”ì†Œë¥¼ ì¶”ê°€í•˜ê³  ê²°ê³¼ ê°’ì„ sum ë³€ìˆ˜ì— ë‹¤ì‹œ í• ë‹¹í•©ë‹ˆë‹¤. (ì¦‰, í•©ê³„ = í•©ê³„ + arr)
-		5) ë°°ì—´ì˜ ëª¨ë“  ìš”ì†Œê°€ sum ë³€ìˆ˜ì— ì¶”ê°€ë˜ë©´ ê²°ê³¼ë¥¼ í‘œì‹œí•©ë‹ˆë‹¤.[i]
+	/*	¹è¿­ ¿ä¼ÒÀÇ ÇÕÀ» Ã£´Â ÀıÂ÷,
+		1) ÇÏ³ªÀÇ ¹è¿­À» °¡Á®¿É´Ï´Ù.
+		2) ÇÏ³ªÀÇ sum º¯¼ö¸¦ ¼±¾ğÇÏ°í 0À¸·Î ÃÊ±âÈ­ÇÏ½Ê½Ã¿À.
+		3) ·çÇÁ¸¦ »ç¿ëÇÏ¿© ÁÖ¾îÁø ¹è¿­ÀÇ ¿ä¼Ò¸¦ ¹İº¹ÇÕ´Ï´Ù.
+		4) sum º¯¼ö¿¡ ¿ä¼Ò¸¦ Ãß°¡ÇÏ°í °á°ú °ªÀ» sum º¯¼ö¿¡ ´Ù½Ã ÇÒ´çÇÕ´Ï´Ù. (Áï, ÇÕ°è = ÇÕ°è + arr)
+		5) ¹è¿­ÀÇ ¸ğµç ¿ä¼Ò°¡ sum º¯¼ö¿¡ Ãß°¡µÇ¸é °á°ú¸¦ Ç¥½ÃÇÕ´Ï´Ù.[i]
 		
 		*result = 
 		*Enter number of elements: 5
@@ -127,7 +127,7 @@ public class SumofArrayinJava2 {
 
 	
 	
-	// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+	// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 	
 	//Enter number of elements:
 	//Enter array elements: 
@@ -174,7 +174,7 @@ public class SumofArrayinJava2 {
 	
 		//re3
 		
-		// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+		// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 		
 		//Enter number of elements:
 		//Enter array elements: 
@@ -216,7 +216,7 @@ public class SumofArrayinJava2 {
 	
 	//re4
 	
-	// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+	// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 	
 	//Enter number of elements:
 	//Enter array elements: 
@@ -254,7 +254,7 @@ public class SumofArrayinJava2 {
 	
 	//re5
 	
-			// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+			// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 			
 			//Enter number of elements:
 			//Enter array elements: 
@@ -283,7 +283,7 @@ public class SumofArrayinJava2 {
 		}
 	}
 		//re6
-		// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+		// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 		//Enter number of elements:
 		//Enter array elements: 
 		//Sum of array elements= 
@@ -314,7 +314,7 @@ public class SumofArrayinJava2 {
 
 
 	//re7
-	// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+	// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 	//Enter number of elements:
 	//Enter array elements: 
 	//Sum of array elements= 
@@ -382,7 +382,7 @@ public class SumofArrayinJava2 {
 
 /*
 	//re8
-	// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+	// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 	//Enter number of elements:
 	//Enter array elements: 
 	//Sum of array elements= 
@@ -420,7 +420,7 @@ public class SumofArrayinJava2 {
 	
 
 	
-	//ìœ„ì˜ í”„ë¡œê·¸ë¨ì˜ ì œí•œ ì‚¬í•­ : - ë°°ì—´ ìš”ì†Œì˜ ìˆ˜ëŠ” í”„ë¡œê·¸ë¨ ê°œë°œ ì‹œê°„ì— ì•Œë ¤ì•¼í•©ë‹ˆë‹¤. ë°°ì—´ ìš”ì†Œì˜ ìˆ˜ê°€ ë™ì ì´ë©° ì´ì „ì— ì˜ˆì¸¡í•  ìˆ˜ì—†ëŠ” ê²½ìš° ë™ì ìœ¼ë¡œ ì»¤ì§ˆ ìˆ˜ ìˆìœ¼ë¯€ë¡œ ì»¬ë ‰ì…˜ í´ë˜ìŠ¤ì˜ ë„ì›€ì„ ë°›ì•„ì•¼í•©ë‹ˆë‹¤.
+	//À§ÀÇ ÇÁ·Î±×·¥ÀÇ Á¦ÇÑ »çÇ× : - ¹è¿­ ¿ä¼ÒÀÇ ¼ö´Â ÇÁ·Î±×·¥ °³¹ß ½Ã°£¿¡ ¾Ë·Á¾ßÇÕ´Ï´Ù. ¹è¿­ ¿ä¼ÒÀÇ ¼ö°¡ µ¿ÀûÀÌ¸ç ÀÌÀü¿¡ ¿¹ÃøÇÒ ¼ö¾ø´Â °æ¿ì µ¿ÀûÀ¸·Î Ä¿Áú ¼ö ÀÖÀ¸¹Ç·Î ÄÃ·º¼Ç Å¬·¡½ºÀÇ µµ¿òÀ» ¹Ş¾Æ¾ßÇÕ´Ï´Ù.
 	// output
 	// Sum = 150
 	
@@ -464,7 +464,7 @@ public class SumofArrayinJava2 {
 	
 
 	
-	//ìœ„ì˜ í”„ë¡œê·¸ë¨ì˜ ì œí•œ ì‚¬í•­ : - ë°°ì—´ ìš”ì†Œì˜ ìˆ˜ëŠ” í”„ë¡œê·¸ë¨ ê°œë°œ ì‹œê°„ì— ì•Œë ¤ì•¼í•©ë‹ˆë‹¤. ë°°ì—´ ìš”ì†Œì˜ ìˆ˜ê°€ ë™ì ì´ë©° ì´ì „ì— ì˜ˆì¸¡í•  ìˆ˜ì—†ëŠ” ê²½ìš° ë™ì ìœ¼ë¡œ ì»¤ì§ˆ ìˆ˜ ìˆìœ¼ë¯€ë¡œ ì»¬ë ‰ì…˜ í´ë˜ìŠ¤ì˜ ë„ì›€ì„ ë°›ì•„ì•¼í•©ë‹ˆë‹¤.
+	//À§ÀÇ ÇÁ·Î±×·¥ÀÇ Á¦ÇÑ »çÇ× : - ¹è¿­ ¿ä¼ÒÀÇ ¼ö´Â ÇÁ·Î±×·¥ °³¹ß ½Ã°£¿¡ ¾Ë·Á¾ßÇÕ´Ï´Ù. ¹è¿­ ¿ä¼ÒÀÇ ¼ö°¡ µ¿ÀûÀÌ¸ç ÀÌÀü¿¡ ¿¹ÃøÇÒ ¼ö¾ø´Â °æ¿ì µ¿ÀûÀ¸·Î Ä¿Áú ¼ö ÀÖÀ¸¹Ç·Î ÄÃ·º¼Ç Å¬·¡½ºÀÇ µµ¿òÀ» ¹Ş¾Æ¾ßÇÕ´Ï´Ù.
 	// output
 	// Sum = 150
 	//re2
@@ -494,7 +494,7 @@ public class SumofArrayinJava2 {
 	
 	
 	
-	//ìœ„ì˜ í”„ë¡œê·¸ë¨ì˜ ì œí•œ ì‚¬í•­ : - ë°°ì—´ ìš”ì†Œì˜ ìˆ˜ëŠ” í”„ë¡œê·¸ë¨ ê°œë°œ ì‹œê°„ì— ì•Œë ¤ì•¼í•©ë‹ˆë‹¤. ë°°ì—´ ìš”ì†Œì˜ ìˆ˜ê°€ ë™ì ì´ë©° ì´ì „ì— ì˜ˆì¸¡í•  ìˆ˜ì—†ëŠ” ê²½ìš° ë™ì ìœ¼ë¡œ ì»¤ì§ˆ ìˆ˜ ìˆìœ¼ë¯€ë¡œ ì»¬ë ‰ì…˜ í´ë˜ìŠ¤ì˜ ë„ì›€ì„ ë°›ì•„ì•¼í•©ë‹ˆë‹¤.
+	//À§ÀÇ ÇÁ·Î±×·¥ÀÇ Á¦ÇÑ »çÇ× : - ¹è¿­ ¿ä¼ÒÀÇ ¼ö´Â ÇÁ·Î±×·¥ °³¹ß ½Ã°£¿¡ ¾Ë·Á¾ßÇÕ´Ï´Ù. ¹è¿­ ¿ä¼ÒÀÇ ¼ö°¡ µ¿ÀûÀÌ¸ç ÀÌÀü¿¡ ¿¹ÃøÇÒ ¼ö¾ø´Â °æ¿ì µ¿ÀûÀ¸·Î Ä¿Áú ¼ö ÀÖÀ¸¹Ç·Î ÄÃ·º¼Ç Å¬·¡½ºÀÇ µµ¿òÀ» ¹Ş¾Æ¾ßÇÕ´Ï´Ù.
 	// output
 	// Sum = 150
 	//re3
@@ -521,9 +521,9 @@ public class SumofArrayinJava2 {
 	
 	
 	//-=-----------------------------------------------------------------
-	//ë³µìŠµ                                    
+	//º¹½À                                    
 	//re6
-	// ì…ë ¥ê°’ì„ ë°›ì•„ SUM
+	// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
 	//Enter number of elements:
 	//Enter array elements: 
 	//Sum of array elements= 
@@ -573,5 +573,43 @@ public class SumofArrayinJava2 {
 	}
 }
 	*/
+	
+		//º¹½À                                    
+		//re6
+		// ÀÔ·Â°ªÀ» ¹Ş¾Æ SUM
+		//Enter number of elements:
+		//Enter array elements: 
+		//Sum of array elements= 
+	
+	public static void main(String[] args) {
+		
+		
+		
+		//1)
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Enter number of elements:");
+		int index = sc.nextInt();
+		int arrayH[] = new int[index];
+		int sum = 0;
+		
+		
+		//2)
+		System.out.println("Enter array elements:");
+				
+		for (int i = 0; i < arrayH.length; i++) {
+			arrayH[i] = sc.nextInt();
+			
+			sum += arrayH[i];
+		}
+		
+		//3)
+		System.out.println("Sum of array elements=" + sum);
+		
+	}
+	
+	
+	
 }
 	
